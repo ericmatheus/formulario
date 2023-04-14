@@ -6,7 +6,78 @@
         <title>Formulário</title>
     </head>
     <body>
-        <h1>Hello World 7000</h1>
+
+        <div>
+            <h1>Cadastro</h1>
+            <p>Complete suas informações</p>
+        </div>
+
+        <form action="">
+            <fieldset>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+            </fieldset>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="">Area de desenvolvimento</label><br>
+                <label for="devfront">
+                    <input type="radio" name="devweb" id="devfront" value="frontend" checked> Front-end
+                </label><br>
+                <label for="devback">
+                    <input type="radio" name="devweb" id="devback" value="backend"> Back-end
+                </label><br>
+                <label for="devfull">
+                    <input type="radio" name="devweb" id="devfull" value="fullstack"> Fullstack
+                </label>
+            </div>
+
+            <div>
+                <label>Senioridade</label>
+                <select name="" id="senioridade">
+                    <option value="" disabled selected>selecione</option>
+                    <option value="">Estágio</option>
+                    <option value="">Trainee</option>
+                    <option value="">Junior</option>
+                    <option value="">Pleno</option>
+                    <option value="">Senior</option>
+ 
+                </select>
+            </div>
+
+            <fieldset>
+                <div>
+                    <label for="">Tecnologias que utiliza</label><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia1">HMTL</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia1">CSS</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Java">
+                    <label for="tecnologia1">Java</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="HTML">
+                    <label for="tecnologia1">HMTL</label>
+                </div>
+            </fieldset>
+            <div>
+            
+                <label for="">Nos conte mais sobre suas experiências</label><br>
+                <textarea name="experiencia" id="experiencia" cols="30" rows="10">
+                
+                </textarea>
+            </div>
+            <button type="submit">Concluído</button>
+        </form>
+
     </body>
 
 </html>
