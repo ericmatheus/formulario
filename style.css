@@ -1,0 +1,57 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: #380b61;
+    margin-left: 7%;
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color: #380b61;
+    margin-left: 10%;
+}
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: #f0f8ff;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input,select,textarea,button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em; 
+}
+
+.campo label{
+    margin-bottom: 0,2em;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0,2em;
+    border: 5px solid #59429d;
+    box-shadow: rgb(0, 0, 0, 0.2);
+    display: block;
+}
+
+
+
