@@ -17,6 +17,7 @@
 
 fieldset{
     border: 0;
+    margin-bottom: 15px;
 }
 
 body{
@@ -55,7 +56,6 @@ fieldset.grupo .campo{
 
 .campo select option{
     padding-right: 1em;
-    color: aqua;
 }
 
 .campo input:focus, .campo select:focus, .campo textarea:focus{
@@ -90,7 +90,20 @@ fieldset.grupo .campo{
     display: inline-block;
 }
 
+.campo input[type="radio"]{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
 
+#check label{
+    margin-right: 15px;
+    margin-bottom: 5px;
+
+}
+
+label{
+    margin-top: 5px;
+}
 
 
 
